@@ -35,7 +35,7 @@ for line in s:
     old_payment_value = paymentType
 
 # output the final entry when done
-#r.write(thisKey + '\t' + str(thisValue)+'\n')
+r.write(old_payment_value + '\t' + str(counter)+'\n' )
 
 s.close()
 r.close()
